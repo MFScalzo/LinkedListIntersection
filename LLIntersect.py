@@ -38,6 +38,6 @@ result = findIntersection(A,B)
 # id() to get the address of an object
 if id(result) == id(C):
     print("Intersection found at Node: " + str(C))
-
-if id(result) == id(None):
+    
+else:
     print("No intersection found.")
